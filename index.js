@@ -33,7 +33,7 @@
      */
     can.define('battery', {
         check : function check () {
-            return navigator.battery || navigator.webkitBattery || navigator.mozBattery;
+            return !!(navigator.battery || navigator.webkitBattery || navigator.mozBattery);
         }
     });
 })();
