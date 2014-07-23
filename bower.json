@@ -1,0 +1,23 @@
+{
+  "name": "can.battery",
+  "description": "Feature detector for can.js which checks if the Battery API is available.",
+  "author": {
+    "name": "André König",
+    "email": "andre.koenig@konexmedia.com"
+  },
+  "version": "2.0.1",
+  "repository": {
+    "url": "git@github.com:canjs/battery.git"
+  },
+  "license": "MIT",
+  "main": "./build/can.battery.min.js",
+  "ignore": [
+      "**/.*",
+      "node_modules",
+      "index.spec.js",
+      "gulpfile.js",
+      "karma.conf.js",
+      "package.json",
+      "index.js"
+  ]
+}
